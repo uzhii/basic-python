@@ -1,0 +1,21 @@
+print("\n=== LATIHAN PERHITUNGAN SEDERHANA ===\n")
+
+## program konversi temperatur
+
+# input dari user, suhu dalam derajat celcius, data berbentuk str kemudian di casting ke float
+celcius = float(input("Masukkan suhu dalam celcius : "))
+print("Suhu dalam celcius adalah", celcius, "Celcius")
+
+# suhu dalam celcius di konversi ke reamur
+reamur = (4/5) * celcius
+print("Suhu dalam reamur adalah", reamur, "Reamur")
+
+# suhu dalam celcius di konversi ke fahrenheit
+fahrenheit = ((9/5) * celcius) + 32
+print("Suhu dalam fahrenheit adalah", fahrenheit, "Fahrenheit")
+
+# suhu dalam celcius di konversi ke kelvin
+kelvin = celcius + 273
+print("Suhu dalam kelvin adalah", kelvin, "Kelvin")
+
+print("\n=== SELESAI ===\n")
