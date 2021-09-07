@@ -1,0 +1,27 @@
+print("\n=== MENGENAL VARIABEL ===\n")
+
+# variabel adalah tempat menyimpan data
+
+# menaruh assigment nilai
+a = 10
+b = 5
+panjang = 1000
+
+# pemanggilan pertama
+print("Nilai a =", a)
+print("Nilai b =", b)
+print("Nilai panjang =", panjang)
+
+# penamaan
+nilai_y = 1
+juta10  = 10000000
+nilaiZ  = 7.5
+
+# pemanggilan kedua
+print(a)
+a = 7
+print("Nilai a =", a)
+b = a + 3
+print("Nilai b =", b)
+
+print("\n=== SELESAI ===\n")
