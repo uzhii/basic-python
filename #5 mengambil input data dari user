@@ -1,0 +1,20 @@
+print("\n=== INPUT USER ===\n")
+
+## mengambil input data dari user
+
+# input nama dari user, tipe data adalah str
+data = input("Masukkan Nama :")
+print("Nama Anda :", data) 
+print("Tipe data", type(data))
+
+# input angka dari user, kemudian di casting tipe datanya ke int
+angka = int(input("Masukkan angka :"))
+print("Angka Anda :", angka)
+print("Tipe :", type(angka))
+
+# data angka dari user, kemudian di casting tipe datanya ke int, kemudian di casting lagi ke bool
+biner = bool(int(input("Masukkan Usia :")))
+print("Anda Muda?", biner)
+print("Tipe data:", type(biner))
+
+print("\n=== SELESAI ===\n")
