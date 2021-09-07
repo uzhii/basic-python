@@ -1,0 +1,36 @@
+print("\n=== LATIHAN KOMPARASI DAN LOGIKA ===\n")
+
+# latihan logika dan komparasi
+# membuat gabungan rentang dari dua angka
+# +++++3-----10+++++
+
+inputUser = float(input("Masukkan nilai kurang dari 3 atau lebih dari 10: "))
+
+# memeriksa +++++3, apakah kurang dari 3 hasilnya true
+isKurangDari = inputUser < 3
+print("Kurang dari 3 :", isKurangDari)
+
+# memeriksa 10+++++, apakah lebih dari 10 hasilnya true
+isLebihDari = inputUser > 10
+print("Lebih dari 10 :", isLebihDari)
+
+# +++++3-----10+++++
+isCorrect = isKurangDari or isLebihDari
+print("Apakah angka tersebut kurang dari 3 atau lebih dari 10?", isCorrect)
+
+# -----3+++++10-----
+inputUser = float(input("Masukkan nilai lebih dari 3 dan kurang dari 10: "))
+
+# ---3+++++, lebih dari 3 maka true
+isLebihDari3 = inputUser > 3
+print("Lebih dari 3", isLebihDari3)
+
+# +++++10---, kurang dari 10 maka false
+isKurangDari10 = inputUser < 10
+print("Kurang dari 10", isKurangDari10)
+
+# -----3+++++10-----
+isCorrect2 = isLebihDari3 and isKurangDari10
+print("Apakah angka tersebut lebih dari 3 dan lebih dari 10?", isCorrect2)
+
+print("\n=== SELESAI ===\n")
