@@ -1,0 +1,78 @@
+print("\n=== OPERASI LOGIKA/BOOLEAN ===\n")
+
+# jenisnya adalah: not, or, and, dan xor
+
+# not
+print("=== NOT ===")
+a = False
+c = not a
+print("data a =", a)
+print("========NOT")
+print("data c =", c)
+
+# not
+print("=== NOT ===")
+a = True
+c = not a
+print("data a =", a)
+print("========NOT")
+print("data c =", c)
+
+# or kalau salah satu true maka hasilnya true, selain itu false
+print("== OR ===")
+a = False
+b = False
+c = a or b
+print(a, "or", b, "=", c)
+a = False
+b = True
+c = a or b
+print(a, "or", b, "=", c)
+a = True
+b = False
+c = a or b
+print(a, "or", b, "=", c)
+a = True
+b = True
+c = a or b
+print(a, "or", b, "=", c)
+
+# and kalau dua-duanya true hasilnya true, selain itu false
+print("== AND ===")
+a = False
+b = False
+c = a and b
+print(a, "and", b, "=", c)
+a = False
+b = True
+c = a and b
+print(a, "and", b, "=", c)
+a = True
+b = False
+c = a and b
+print(a, "and", b, "=", c)
+a = True
+b = True
+c = a and b
+print(a, "and", b, "=", c)
+
+# xor akan true apabila hanya salah satu saja yang true, sisa false
+print("== XOR ===")
+a = False
+b = False
+c = a ^ b
+print(a, "xor", b, "=", c)
+a = False
+b = True
+c = a ^ b
+print(a, "xor", b, "=", c)
+a = True
+b = False
+c = a ^ b
+print(a, "xor", b, "=", c)
+a = True
+b = True
+c = a ^ b
+print(a, "xor", b, "=", c)
+
+print("\n=== SELESAI ===\n")
