@@ -1,0 +1,94 @@
+print("\n=== OPERASI KOMPARASI ===\n")
+
+"""
+operasi komparasi mempunyai beberapa jenis sebagai berikut:
+lebih dari, kurang dari, lebih dari sama dengan,
+kurang dari sama dengan, sama dengan, tidak sama dengan,
+is, is not
+"""
+
+# assignment 
+a = 4
+b = 2
+
+# lebih dari >
+print("=== LEBIH DARI ===")
+hasil = a > 3
+print("a > 3", hasil)
+hasil = b > 3
+print("b > 3", hasil)
+hasil = b > 2
+print("b > 2", hasil)
+
+# kurang dari <
+print("=== KURANG DARI ===")
+hasil = a < 3
+print("a < 3", hasil)
+hasil = b < 3
+print("b < 3", hasil)
+hasil = b < 2
+print("b < 2", hasil)
+
+# lebih dari sama dengan >=
+print("=== LEBIH DARI SAMA DENGAN ===")
+hasil = a >= 3
+print("a >= 3", hasil)
+hasil = b >= 3
+print("b >= 3", hasil)
+hasil = b >= 2
+print("b >= 2", hasil)
+
+# kurang dari sama dengan <=
+print("=== KURANG DARI SAMA DENGAN ===")
+hasil = a <= 3
+print("a <= 3", hasil)
+hasil = b <= 3
+print("b <= 3", hasil)
+hasil = b <= 2
+print("b <= 2", hasil)
+
+# sama dengan ==
+print("=== SAMA DENGAN ===")
+hasil = a == 3
+print("a == 3", hasil)
+hasil = b == 3
+print("b == 3", hasil)
+hasil = b == 2
+print("b == 2", hasil)
+
+# tidak sama dengan !=
+print("=== TIDAK SAMA DENGAN ===")
+hasil = a != 3
+print("a != 3", hasil)
+hasil = b != 3
+print("b != 3", hasil)
+hasil = b != 2
+print("b != 2", hasil)
+
+# IS
+print("=== IS ===")
+x = 5
+y = 6
+hasil = x is y
+print("x is y", hasil)
+
+# IS NOT
+print("=== IS NOT ===")
+x = 5
+y = 6
+hasil = x is not y
+print("x is not y", hasil)
+
+# untuk mengetahui hex id x
+id(x)
+print("id x =", id(x))
+hex(id(x))
+print("hex id x =", hex(id(x)))
+
+# untuk mengetahui hex id y
+id(y)
+print("id y =", id(y))
+hex(id(y))
+print("hex id y =", hex(id(y)))
+
+print("\n=== SELESAI ===\n")
