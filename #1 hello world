@@ -1,0 +1,11 @@
+print("\n=== #1 HELLO WORLD ===\n")
+
+print("hello")
+print("world")
+print("hello world")
+
+a = 10
+print(a)
+print("type data =", type(a))
+
+print("\n=== SELESAI ===\n")
