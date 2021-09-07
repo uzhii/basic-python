@@ -1,0 +1,87 @@
+print("\n=== OPERATOR ASSIGNMENT ===\n")
+
+# operasi yang dapat dilakukan dengan penyingkatan
+# operasi ditambah dengan assignment
+
+a = 5
+print("nilai a =", a)
+
+a = 5
+a = a + 1
+print("nilai a + 1 adalah", a)
+
+a = 5
+a += 1
+print("nilai a += 1 adalah", a)
+
+a = 5
+a -= 2
+print("nilai a -= 2 adalah", a)
+
+a = 5
+a *= 2
+print("nilai a *= 2 adalah", a)
+
+a = 5
+a /= 2
+print("nilai a /= 2 adalah", a)
+
+a = 5
+a %= 2
+print("nilai a %= 2 adalah", a)
+
+a = 5
+a //= 2
+print("nilai a //= 2 adalah", a)
+
+a = 5
+a **= 2
+print("nilai a **= 2 adalah", a)
+
+# operasi bitwise or
+a = 5
+c = True
+print("\nnilai c adalah", c)
+c |= False
+print("nilai c |= False adalah", c)
+
+a = 5
+c = False
+print("\nnilai c adalah", c)
+c |= False
+print("nilai c |= False adalah", c)
+
+# operasi bitwise and
+c = True
+print("\nnilai c adalah", c)
+c &= False
+print("nilai c &= False adalah", c)
+
+c = False
+print("\nnilai c adalah", c)
+c &= False
+print("nilai c &= False adalah", c)
+
+# operasi bitwise xor
+c = True
+print("\nnilai c adalah", c)
+c ^= False
+print("nilai c ^= False adalah", c)
+
+c = False
+print("\nnilai c adalah", c)
+c ^= False
+print("nilai c ^= False adalah", c)
+
+# operasi geser geser
+d = 0b0100
+print("\nnilai d =", format(d, '04b'))
+d >>= 2
+print("\nnilai d >>=2 adalah", format(d, '04b'))
+
+d = 0b0100
+print("\nnilai d =", format(d, '04b'))
+d <<= 1
+print("\nnilai d <<= 1 adalah", format(d, '04b'))
+
+print("\n=== SELESAI ===\n")
