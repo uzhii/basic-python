@@ -1,0 +1,60 @@
+print("\n=== OPERATOR BITWISE ===\n")
+
+a = 9
+b = 5
+
+# bitwise or |
+c = a | b
+print("\n=== or ===")
+print("nilai :", a, ", binary :", format(a, "08b"))
+print("nilai :", b, ", binary :", format(b, "08b"))
+print("_____________________________ (|)")
+print("nilai :", c, ", binary :", format(c, "08b"))
+
+# bitwise and &
+c = a & b
+print("\n=== and ===")
+print("nilai :", a, ", binary :", format(a, "08b"))
+print("nilai :", b, ", binary :", format(b, "08b"))
+print("_____________________________ (&)")
+print("nilai :", c, ", binary :", format(c, "08b"))
+
+# bitwise xor ^
+c = a ^ b
+print("\n=== XOR ===")
+print("nilai :", a, ", binary :", format(a, "08b"))
+print("nilai :", b, ", binary :", format(b, "08b"))
+print("_____________________________ (^)")
+print("nilai :", c, ", binary :", format(c, "08b"))
+
+# bitwise not ~ 
+c = ~a
+print("\n=== not ===")
+print("nilai :", a, ", binary :", format(a, "08b"))
+print("nilai :", b, ", binary :", format(b, "08b"))
+print("_____________________________ (~)")
+print("nilai :", c, ", binary :", format(c, "08b"))
+print("_____________________________ (^)")
+
+print("\n=== not di xor kan ===")
+d = 0b0000001001
+e = 0b1111111111
+print("nilai :", e^d, ", binary :", format(e, "08b"))
+
+## shifting
+
+# shift right >>
+print("\n=== shifting right ===")
+c = a >> 1
+print("nilai :", a, ", binary :", format(a, "08b"))
+print("_____________________________ (>>)")
+print("nilai :", c, ", binary :", format(c, "08b"))
+
+# shift left <<
+print("\n=== shifting left ===")
+c = a << 1
+print("nilai :", a, ", binary :", format(a, "08b"))
+print("_____________________________ (<<)")
+print("nilai :", c, ", binary :", format(c, "08b"))
+
+print("\n=== SELESAI ===\n")
