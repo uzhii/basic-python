@@ -1,0 +1,59 @@
+print("\n=== PENGENALAN STRING ===\n")
+
+data = "data adalah string"
+print(data)
+print(type(data))
+
+# cara membuat string
+"""
+    1. dengan menggunakan single quote
+    2. dengan menggunakan double quote
+"""
+data = 'menggunakan single quote'
+print(data)
+
+data = "menggunakan double quote"
+print(data)
+
+print('"halo apa kabar?"')
+print("'halo apa kabar?'")
+print("ini adalah hari jum'at")
+
+# menggunakan tanda backlash \
+print('mari shalat jum\'at')
+print('g\'day isn\'t it?')
+
+# string backlash
+print("C:\\Ucup\\Saya")
+
+# tab
+print("ucup \t otong", "jauh")
+print("ucup \t\t otong", "semakin jauh")
+
+# backspace
+print("ucup \b otong", "dekat")
+
+# new line
+print("baris pertama. \nbaris kedua.") # LF line feed, unix, macos, linux
+print("baris pertama. \rbaris kedua.") # CR carriage return, commodore, acorn, lisp
+print("baris pertama. \r\nbaris kedua.") # CRLF carriage return line feed, dipakai oleh windows
+
+# string literal atau raw
+
+# hati-hati
+print("C:\new folder")
+print(r"C:\new folder")
+
+# multiline literal string
+print("""
+Nama : Ucup
+Kelas : 4 SD
+""")
+
+print(r"""
+Nama : Ucup
+Kelas : 4 SD
+Website : https://www.ucup.com
+""")
+
+print("\n=== SELESAI ===\n")
