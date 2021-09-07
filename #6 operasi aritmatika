@@ -1,0 +1,47 @@
+print("\n=== OPERASI ARITMATIKA ===\n")
+
+## operasi aritmatika terdiri dari pertambahan, pengurangan, perkalian, pembagian, eksponen, modulus, dan floor division serta prioritas pengerjaan operasinya seperti apa
+
+a = 10
+b = 3
+
+# operasi pertambahan +
+hasil = a + b
+print(a, '+', b, "=", hasil)
+
+# operasi pengurangan -
+hasil = a - b
+print(a, "-", b, "=", hasil)
+
+# operasi perkalian *
+kali = a * b
+print(a, "*", b, "=", kali)
+
+# operasi pembagian /
+bagi = a / b
+print(a, "/", b, "=", bagi)
+
+# operasi eksponen **
+pangkat = a ** b
+print(a, "**", b, "=", pangkat)
+
+# operasi modulus %
+modulus = a % b
+print(a, "%", b, "=", modulus)
+
+# operasi floor division //
+floor_division = a // b
+print(a, "//", b, "=", floor_division)
+
+# prioritas operasi
+x = 3
+y = 2
+z = 4
+
+hasil = x ** y * z + x / y - y % z // x
+print(x,'**',y,'*',z,'+',x,'/',y,'-',y,'%',z,'//',x, "=", hasil)
+
+hasil = (x + y) * z
+print(x,'+',y,'*',z, "=", hasil)
+
+print("\n=== SELESAI ===\n")
